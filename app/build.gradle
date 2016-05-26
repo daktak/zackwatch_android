@@ -26,3 +26,11 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.getpebble:pebblekit:3.0.0'
 }
+
+android {
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'
+        checkReleaseBuilds false
+    }
+}
+
